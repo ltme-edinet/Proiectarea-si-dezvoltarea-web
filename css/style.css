@@ -1,0 +1,422 @@
+
+body{
+	margin: 0;
+	background-color: rgba(206, 168, 111, 0.123);
+}
+
+ /*pagina Contacte*/
+.contacts{
+	width: 90%;
+	margin: 10px auto;
+	height: 550px;
+	color: #1a0000;
+	padding:20px 20px;
+	border-radius: 10px;
+}
+
+.contacts .content {
+	float:left;
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.contacts .map {
+	width: 100%;
+	float: right;
+	padding:0;
+}
+
+.contacts h2 {
+	text-align: center;
+	color: rgb(9, 9, 102);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts .text {
+	padding-left: 20px;
+}
+
+/***** contact form *****/
+
+#contact-form label {
+	display:block; 
+	height:40px; 
+	overflow:hidden;
+}
+
+#contact-form input {
+	float:left; 
+	width:60%; 
+	font-size:12px; 
+	color:#000;
+	padding:7px 9px 6px; 
+	margin:0; 
+	font-family:Arial, Helvetica, sans-serif; 
+	border:1px solid #e5e5e5;  
+	background:#fff;
+	outline:none;
+}
+
+#contact-form textarea {
+	float:left;
+	height:200px; 
+	width:60%;
+	font-size:12px; 
+	padding:7px 9px 6px;
+	margin:0; 
+	font-family:Arial, Helvetica, sans-serif; 
+	border:1px solid #e5e5e5; 
+	background:#fff;
+	overflow:auto;
+	outline:none;
+}
+
+.text-form {
+	float:left;  
+	font-size:15px;
+	line-height:30px;
+	width:95px; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+form{
+	border:0px;
+	margin:0 auto;
+	padding:0;
+}
+
+button{
+	padding: 1%;
+   border: 1%;
+   content: center;
+	background: #00FF7F;
+   border-radius: 25px;
+	text-align: center;
+	margin-left: 35%;
+}
+
+/* footer pagini */
+.footer {
+	display:block;
+	text-align:center;
+    height: 60px;
+	width: 100%;
+	float: left;
+	background-color: rgb(235, 230, 230);
+	border-top: 2px solid blue;
+  }
+
+.footer span{
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* stiluri pentru orar */
+
+table{
+	width: 70%;
+}
+
+.table{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+table p{
+	padding: 0px;
+	margin: 0px;
+}
+
+table th{
+	width: 10%;
+}
+
+.table1{
+	justify-content: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.table1 td,th,tr{
+	border: 1px solid;
+	padding: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table1 tr:nth-child(even){background-color: rgb(235, 221, 221);}
+
+.table1 tr:hover {background-color: #ddd;}
+
+/* stiluri pentru activitat */
+.activitati{
+	width: 80%;
+	margin: 5px auto;
+	color: #1a0000;	
+	border-radius: 10px;	
+}
+.activitati h3{
+	color: rgb(9, 9, 102);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activitati .content {
+	float:left;
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 6px;
+}
+
+.img-activitati{
+	width: 50%;
+	height: 180px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+.img-activitati:hover{
+	opacity: 80%;
+}
+
+.activitati .map {
+	width: 100%;
+	float: right;
+	padding:0;
+}
+
+.activitati h2 {
+	text-align: center;
+	color: rgb(121, 33, 192);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content h3:hover{
+	color: rgba(0, 0, 139, 0.521);
+}
+
+.activitati .text {
+	padding-left: 20px;
+}
+
+.content p{
+	font-size:  16px;
+	font-style: italic;
+	text-align: justify;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: brown;
+}
+
+/* pagina principala css */
+.container{
+	padding: 6px 15% 20px 15%;
+}
+
+.container p{
+	font-size: 25px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.parteneri{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img-parteneri{
+	max-height: 200px;
+	border: 2px dashed rgb(3, 3, 49);
+	border-radius: 16px;
+	margin: 10px;
+	box-shadow: 4px 5px 8px gray;
+}
+
+.img-parteneri:hover{
+	opacity: 60%;
+	transform: scale(1.05);
+}
+
+.centru p{
+	text-align-last: center;
+	text-shadow: 2px 2px rgba(211, 210, 210, 0.726);
+	color: blue;
+	font-size: 30px;
+}
+
+.centru2 p{
+	text-align-last: center;
+	color: chocolate;	
+}
+.h3{
+	color: rgb(9, 9, 102);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* pagina despre, stiluri css */
+.container2{
+	padding: 20px 20% 20px 20%;
+}
+
+.img-despre{
+	width: 80%;
+	height: auto;
+}
+.container2 img, video{
+	border-radius: 25px;
+}
+.centered p{
+	font-size: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: brown;
+}
+
+/* pagina regulamente, stiluri css */
+.container3{
+	padding: 6px 15% 20px 15%;
+}
+
+.dreapta{
+	width: 72%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.stanga{
+	width: 22%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.stanga a{
+
+	float: left;
+	width: 100%;
+	text-decoration: none;
+}
+
+.dreapta a{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.lincuri{
+	width: 100%;
+	margin: 0;
+	background-color: rgb(235, 221, 221);
+}
+
+.lincuri p{
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.img-despre2{
+	width: 100%;
+	height: auto;
+}
+
+audio{
+	width: 100%;
+}
+
+.dreapta h1{
+	text-align-last: center;
+	color: rgb(9, 9, 102);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dreapta h3{
+	text-align-last: center;
+	color: brown;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* media pentru pagini responsive */
+@media(max-width:770px){
+	.dreapta{
+		width: 100%;
+		float: left;
+	}
+	.stanga{
+		width: 100%;
+		float: left;
+	}
+}
+@media(max-width:1100px){
+	.container3{
+		padding: 6px 5% 20px 5%;	
+	}
+}
+@media (min-width: 550px) {	
+	.contacts .content {
+		float:left;
+		width: 50%;
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+	.contacts .map {
+		width: 50%;
+		float: right;
+		padding:0;
+	}
+	.contacts h2 {
+		text-align: center;
+	}
+	.contacts .text {
+		padding-left: 20px;
+	}
+}
+@media(max-width:550px){
+	.contacts{
+		width: 90%;
+		margin: 10px auto;
+		height: 850px;
+		color: #1a0000;
+		padding:20px 20px;
+		border-radius: 10px;
+	}
+
+}
+@media (min-width: 1100px) {	
+	.activitati .content {
+		float:left;
+		width: 47%;
+		border-radius: 10px;	
+	}
+
+	.activitati h2 {
+		text-align: center;
+	}
+	.activitati .text {
+		padding-left: 20px;
+	}
+}
+@media(max-width:1100px){
+	.activitati{
+		width: 95%;
+		margin: 5px auto;
+		border-radius: 10px;
+	}
+	.img-activitati{
+		width: auto;
+	}
+
+}
+@media(max-width:1100px){
+
+	.container2{
+		padding: 6px 5% 20px 5%;
+	}
+	table{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Contacte | LT „Mihai Eminescu”</title>
+        <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="../css/nav.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+     <!---------------------------------------------------------- Header ------------------------------------------------------->
+     <div >
+        <img src="../images/head.PNG" alt="Liceul Teoretic Mihai Eminescu" class="center"/>
+        <header>
+            <!--------------------------------------------------Bara de navigare ----------------------------------------------->
+            <div id="navbar" class="nav"><div class="navbar-center">
+                <img src="../images/head2.PNG" alt="Liceul Teoretic Mihai Eminescu" class="head2"/>
+                <a href="../index.html" >Home</a>
+                 <a href="despre.html">Despre</a>
+                <a href="activitati.html">Activități</a>
+                <a  href="regulament.html"> Regulament</a>
+                <a  href="orar.html">Orar</a>
+                <a class="active" href="contacte.html">Contacte</a>
+                <a class="hamburger-menu" onclick="mobileMenu()" ><i class="fa fa-bars"></i></a>
+            </div></div>
+        </header>
+    </div>
+     <!--------------------------------------------------- continutul paginii -------------------------------------------------->
+        <div class="contacts">
+            <h2 style="padding-right: 55%;">Contacteaza-ne</h2>
+            <div class="content">
+                <form id="contact-form">                    
+                    <fieldset style="border:0px; margin:0 auto; padding:0;">
+                        <label><span class="text-form">Nume:</span><input  type="text" placeholder="Jaloba" name="Nume" required /></label>
+                        <label><span class="text-form">Prenume:</span><input  type="text" placeholder="Andrei" name="Prenume" required /></label>                     
+                        <label><span class="text-form">Email:</span><input  type="text" placeholder="andrei.j.2012@mail.ru" name="Email" required/></label>                             
+                        <div class="text-form">Mesajul tau:</div>
+                        <textarea  name="Comentariu"></textarea>                                              
+                    </fieldset>	       
+                    <label><button> Transmite</button></label>	
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.4806615561897!2d27.305427515548004!3d48.17808975631759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47335cb3c5791ab3%3A0x17fd6e7c7a67d0ad!2sLiceul%20Teoretic%20Mihai%20Eminescu!5e0!3m2!1sru!2s!4v1596569295965!5m2!1sru!2s" width="95%" height="250"   allowfullscreen=""></iframe>
+            </div>
+            <h2>Cum ne găsiți?</h2>
+            <div class="content">               
+                <div class="text">
+                    <p>Adresa: <small><em>Strada Șoseaua Bucovinei 33, Edineţ</em></small> </p>
+                </div>            
+                <div class="text">	
+                    <p>Email: <small><em>ltmeedinet@mail.ru</em></small> </p>
+                </div>              
+                <div class="text">
+                    <p>Telefon: <small><em>0246 27 096</em></small> </p>
+                </div>
+            </div>
+        </div>
+     <!------------------------------------------------------ footer ----------------------------------------------------------->
+        <br>
+        <div class="footer">
+            <br/>
+            <span>&copy; <span id="an"></span> Liceul Teoretic Mihai Eminescu  | Toate drepturile rezervate</span>
+        </div>
+        <script src="../js/main.js"></script>
+    </body>
+</html>

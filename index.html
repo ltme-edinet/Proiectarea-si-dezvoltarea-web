@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>LT „Mihai Eminescu”</title>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/nav.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slideshow.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />       
+    </head>
+    <body>
+     <!---------------------------------------------------------- Header ------------------------------------------------------->
+     <div >
+        <a href="index.html"> <img src="images/head.PNG" alt="Liceul Teoretic Mihai Eminescu" class="center"/></a>
+        <header>
+            <!-- ---------------------------------------------------Bara de navigare -------------------------------------------------->
+            <div id="navbar" class="nav"><div class="navbar-center">
+                <img src="images/head2.PNG" alt="Liceul Teoretic Mihai Eminescu" class="head2"/>
+                <a class="active" href="index.html" >Home</a>
+                 <a href="pages/despre.html">Despre</a>
+                <a href="pages/activitati.html">Activități</a>
+                <a  href="pages/regulament.html"> Regulament</a>
+                <a href="pages/orar.html">Orar</a>
+                <a href="pages/contacte.html">Contacte</a>
+                <a class="hamburger-menu" onclick="mobileMenu()" ><i class="fa fa-bars"></i></a>
+            </div></div>
+        </header>
+    </div><br>
+     <!--------------------------------------------------- slideshow imagini ---------------------------------------------------->
+        <div class="slideshow-container" >
+
+            <div class="mySlides fade">
+            <img   src="images/slide5.jpg" class="img" alt="#">
+            </div>
+            
+            <div class="mySlides fade">
+            <img  src="images/slide2.jpg" class="img" alt="#">
+            </div>
+            
+            <div class="mySlides fade">
+            <img  src="images/slide3.jpg" class="img" alt="#">
+            </div>
+
+            <div class="mySlides fade">
+                <img  src="images/slide1.jpg" class="img" alt="#">
+            </div>
+
+            <div class="mySlides fade">
+                <img  src="images/slide6.jpg" class="img" alt="#">
+            </div>
+
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" ></span> 
+            <span class="dot" ></span> 
+            <span class="dot" ></span> 
+            <span class="dot" ></span> 
+            <span class="dot" ></span> 
+        </div>
+     <!--------------------------------------------------- continutul paginii -------------------------------------------------->
+        <div class="container">          
+            <div class="centru"><p>”Școala e un izvor din care curg necontenit cunoștințe și educație “ </p></div><br>
+           <div class="centru2"> 
+               <p>
+                Se spune că fiecare copil a visat măcar o dată să fie învățător. 
+                A fi învățător nu e doar o profesie ,ci și un destin pentru toată viața. 
+                Ca să prețuiești prezentul, e necesar să cunoaștem bine trecutul 
+                pentru a ne făuri viitorul cel apropiat și cel îndepărtat.        
+                </p>
+            </div>
+            <div class="centered">
+                <h3 class="h3">Parteneri</h3>
+            </div>
+            <div class="parteneri">
+                <a href="https://studii.md/" target="_blank"> <img class="img-parteneri" src="images/studii.png" alt="Studii MD" /></a>
+                <a href="https://www.soros.md/" target="_blank">  <img class="img-parteneri" src="images/soros.jpg" alt="Soros-Moldova" /></a>
+                <a href="https://www.tekwill.md/news/tekwill-n-fiecare-scoala-program-complex-de-cursuri-extra-curriculare" target="_blank">  <img class="img-parteneri" src="images/tekwill.jpg" alt="Tekwill in fiecare scoala" /></a>
+                <a href="https://www.clasaviitorului.md/" target="_blank">  <img class="img-parteneri" src="images/viitor.png" alt="Clasa Viitorului" /></a>
+            </div>
+        </div>
+     <!------------------------------------------------------- footer ---------------------------------------------------------->        
+        <div class="footer">
+            <br/>
+            <span>&copy; <span id="an"></span> Liceul Teoretic Mihai Eminescu  | Toate drepturile rezervate</span>
+        </div>
+     <!---------------------------------------------- slideshow java script ---------------------------------------------------->
+        <script src="js/slideshow.js" ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
